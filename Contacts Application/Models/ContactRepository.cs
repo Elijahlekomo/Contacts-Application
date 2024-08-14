@@ -77,6 +77,15 @@ namespace Contacts_Application.Models
         public static List<Contact> Searchcontacts(string filter)
         {
             var contacts = contactList.Where(x => !string.IsNullOrWhiteSpace(x.Name) && x.Name.ToLower().Contains(filter.ToLower())).ToList();
+            if(contacts == null ||  contacts.Count <= 0)
+                contacts = contactList.Where(x => !string.IsNullOrWhiteSpace(x.Email) && x.Email.ToLower().Contains(filter.ToLower())).ToList();               
+            else return contacts;
+
+            if (contacts == null || contacts.Count <= 0)
+                contacts = contactList.Where(x => x.PhoneNumber == int.Parse(filter)).ToList();
+            else return contacts;
+
+            return contacts;
         }
     }
 }
