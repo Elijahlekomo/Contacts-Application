@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27AC06C6-3793-4BE5-BE2C-2699B42B8FBD}|Contacts Application.csproj|c:\\users\\elijah\\onedrive - university of south africa\\personal projects\\contacts-application\\contacts application\\models\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27AC06C6-3793-4BE5-BE2C-2699B42B8FBD}|Contacts Application.csproj|solutionrelative:models\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27AC06C6-3793-4BE5-BE2C-2699B42B8FBD}|Contacts Application.csproj|c:\\users\\elijah\\onedrive - university of south africa\\personal projects\\contacts-application\\contacts application\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27AC06C6-3793-4BE5-BE2C-2699B42B8FBD}|Contacts Application.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27AC06C6-3793-4BE5-BE2C-2699B42B8FBD}|Contacts Application.csproj|c:\\users\\elijah\\onedrive - university of south africa\\personal projects\\contacts-application\\contacts application\\views\\maincontactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27AC06C6-3793-4BE5-BE2C-2699B42B8FBD}|Contacts Application.csproj|solutionrelative:views\\maincontactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27AC06C6-3793-4BE5-BE2C-2699B42B8FBD}|Contacts Application.csproj|c:\\users\\elijah\\onedrive - university of south africa\\personal projects\\contacts-application\\contacts application\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27AC06C6-3793-4BE5-BE2C-2699B42B8FBD}|Contacts Application.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27AC06C6-3793-4BE5-BE2C-2699B42B8FBD}|Contacts Application.csproj|c:\\users\\elijah\\onedrive - university of south africa\\personal projects\\contacts-application\\contacts application\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27AC06C6-3793-4BE5-BE2C-2699B42B8FBD}|Contacts Application.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +55,67 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\Models\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "Models\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\Models\\ContactRepository.cs",
+              "RelativeToolTip": "Models\\ContactRepository.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAE8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:21:16.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\Models\\Contact.cs",
+              "RelativeToolTip": "Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:16:55.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainContactPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\Views\\MainContactPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MainContactPage.xaml",
+              "ToolTip": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\Views\\MainContactPage.xaml",
+              "RelativeToolTip": "Views\\MainContactPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-13T20:10:00.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:03:17.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Elijah\\OneDrive - University of South Africa\\Personal Projects\\Contacts-Application\\Contacts Application\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-13T19:56:04.52Z"
             }
           ]
         }

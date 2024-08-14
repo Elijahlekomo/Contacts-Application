@@ -41,3 +41,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contacts_Application.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Elijah/OneDrive - University of South Africa/Personal Projects/Contacts-Application/Contacts Application/Views/AddContactPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Contacts_Application.Views.AddContactPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddContactPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddContactPage.xaml
+
+[C:/Users/Elijah/OneDrive - University of South Africa/Personal Projects/Contacts-Application/Contacts Application/Views/EditContactPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Contacts_Application.Views.EditContactPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditContactPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditContactPage.xaml
+
+[C:/Users/Elijah/OneDrive - University of South Africa/Personal Projects/Contacts-Application/Contacts Application/Views/MainContactPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Contacts_Application.Views.MainContactPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainContactPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainContactPage.xaml
