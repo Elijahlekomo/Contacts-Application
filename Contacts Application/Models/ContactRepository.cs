@@ -44,7 +44,7 @@ namespace Contacts_Application.Models
         //Get (Read 1)
         public static List<Contact> GetAllContacts() => contactList;
         //Read (Read 2)
-        public static List<Contact> GetContactById(int id)
+        public static Contact GetContactById(int id)
         {
             var result = contactList.FirstOrDefault(x => x.Id == id);
             return result;

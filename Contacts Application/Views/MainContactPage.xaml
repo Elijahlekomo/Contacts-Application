@@ -3,10 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contacts_Application.Views.MainContactPage"
              Title="My Contacts">
-    <VerticalStackLayout>
-        <Label 
-            Text="Main Contact Page"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ListView BackgroundColor="Transparent"
+              x:Name="xmlContactList"
+              RowHeight="50"
+              Margin="10"
+              SeparatorColor="Silver"
+              ItemSelected="xmlContactList_ItemSelected"
+              ItemTapped="xmlContactList_ItemTapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Path=Name}"
+                          Detail="{Binding Email}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        
+    </ListView>
 </ContentPage>
