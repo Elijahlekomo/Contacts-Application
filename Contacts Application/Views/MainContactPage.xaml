@@ -9,6 +9,13 @@
           RowSpacing="10"
           Margin="10"
           Padding="10">
+        
+        <SearchBar Grid.Row="0"
+                   Grid.Column="0"
+                   Placeholder="Search Contact"
+                   Margin="10"
+                   x:Name="searchBar"
+                   TextChanged="searchBar_TextChanged"/>
 
         <Button Text="Add"
                 Grid.Row="0"
@@ -32,7 +39,20 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Path=Name}"
-                      Detail="{Binding Email}"/>
+                      Detail="{Binding Email}">
+                        <TextCell.ContextActions>
+                            <MenuItem Text="Delete"
+                                      x:Name="MenuItemDelete"
+                                      IsDestructive="True"
+                                      Clicked="MenuItemDelete_Clicked"
+                                      CommandParameter="{Binding .}"/>
+                            <MenuItem Text="Edit"
+                                      x:Name="MenuItemEdit"
+                                      Clicked="MenuItemEdit_Clicked"
+                                      CommandParameter="{Binding .}"/>
+
+                        </TextCell.ContextActions>                        
+                    </TextCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
 

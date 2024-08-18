@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Elijah\OneDrive - University of South Africa\Personal Projects\Contacts-Application\Contacts Application\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-08-18T19:13:23.352</Modified>
+      <Modified>2024-08-18T20:56:16.830</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elijah\OneDrive - University of South Africa\Personal Projects\Contacts-Application\Contacts Application\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Contacts Application.dll">
       <PackagePath>Contacts Application.dll</PackagePath>
-      <Modified>2024-08-18T19:13:22.628</Modified>
+      <Modified>2024-08-18T20:56:15.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elijah\OneDrive - University of South Africa\Personal Projects\Contacts-Application\Contacts Application\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Contacts Application.exe</PackagePath>
-      <Modified>2024-08-18T19:13:22.644</Modified>
+      <Modified>2024-08-18T20:56:15.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elijah\OneDrive - University of South Africa\Personal Projects\Contacts-Application\Contacts Application\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
