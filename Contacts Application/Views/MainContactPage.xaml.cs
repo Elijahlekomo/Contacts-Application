@@ -8,10 +8,16 @@ public partial class MainContactPage : ContentPage
 	public MainContactPage()
 	{
 		InitializeComponent();
-		LoadContacts();
 	}
 
-	private void LoadContacts()
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        LoadContacts();
+    }
+
+
+    private void LoadContacts()
 	{
 		var results = new ObservableCollection<Models.Contact>(ContactRepository.GetAllContacts());
 		xmlContactList.ItemsSource = results;
@@ -28,5 +34,10 @@ public partial class MainContactPage : ContentPage
     private void xmlContactList_ItemTapped(object sender, ItemTappedEventArgs e)
     {
 		xmlContactList.SelectedItem = null;
+    }
+
+    private void BtnAddContact_Clicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync(nameof(AddContactPage));
     }
 }

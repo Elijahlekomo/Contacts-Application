@@ -26,7 +26,7 @@ namespace Contacts_Application.Models
             if (contact != null)
             {
                 var checkEmail = contactList.FirstOrDefault(x => x.Email.Equals(contact.Email));
-                if (contact == null)
+                if (checkEmail != null)
                 {
                     Shell.Current.DisplayAlert("Error", "Contact already Added", "Ok");
                     return;
@@ -36,7 +36,7 @@ namespace Contacts_Application.Models
                 contactList.Add(contact);
                 Shell.Current.DisplayAlert("Success", "Contact Added Done", "Ok");
                 //Absolute path
-                Shell.Current.GoToAsync($"{nameof(MainContactPage)}");
+                Shell.Current.GoToAsync($"//{nameof(MainContactPage)}");
 
 
             }

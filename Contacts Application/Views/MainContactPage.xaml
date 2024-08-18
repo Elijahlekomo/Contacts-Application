@@ -3,19 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contacts_Application.Views.MainContactPage"
              Title="My Contacts">
-    <ListView BackgroundColor="Transparent"
-              x:Name="xmlContactList"
-              RowHeight="50"
-              Margin="10"
-              SeparatorColor="Silver"
-              ItemSelected="xmlContactList_ItemSelected"
-              ItemTapped="xmlContactList_ItemTapped">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding Path=Name}"
-                          Detail="{Binding Email}"/>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-        
-    </ListView>
+
+    <Grid RowDefinitions="Auto,100*"
+          ColumnDefinitions=".70*, .30*"
+          RowSpacing="10"
+          Margin="10"
+          Padding="10">
+
+        <Button Text="Add"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="End"
+                BackgroundColor="Transparent"
+                TextColor="Blue"
+                BorderWidth="0"
+                x:Name="BtnAddContact"
+                Clicked="BtnAddContact_Clicked"/>
+         
+        <ListView BackgroundColor="Transparent"
+                  Grid.Row="1"
+                  Grid.ColumnSpan="2"
+          x:Name="xmlContactList"
+          RowHeight="50"
+          SeparatorColor="Silver"
+          ItemSelected="xmlContactList_ItemSelected"
+          ItemTapped="xmlContactList_ItemTapped">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Path=Name}"
+                      Detail="{Binding Email}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+    </Grid>
+          
 </ContentPage>
